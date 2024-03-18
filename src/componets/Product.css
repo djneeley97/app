@@ -1,0 +1,19 @@
+.product {
+    background-color: #A9DEF9;
+    border: 1px solid;
+    margin-bottom: 12px;
+
+    display: inline-block;
+    width: 300px;
+    height: 380px;
+    border-radius: 4px;
+    margin: 0 7px 12px 0;
+
+}
+
+.product h6 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
