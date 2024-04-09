@@ -1,0 +1,15 @@
+.qt-picker button {
+    margin: 0 5px;
+}
+
+.minus {
+    background-color: rgb(250, 173, 173);
+    color: black;
+    border: black;
+}
+
+.plus {
+    background-color: rgb(186, 250, 186);
+    color: black;
+    ;
+}

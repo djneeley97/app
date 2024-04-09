@@ -15,7 +15,7 @@ function Catalog() {
             title: "Oranges",
             price: 1.00,
             category: "Fruit",
-            image: "oranges.jpg",
+            image: "oranges.png",
             _id: "1"
         },
         {
@@ -33,14 +33,14 @@ function Catalog() {
             _id: "3"
         },
         {
-            title: "Banana",
+            title: "Bananas",
             price: 0.63,
             category: "Fruit",
             image: "bananas.jpg",
             _id: "4"
         },
         {
-            title: "cheese",
+            title: "Cheese",
             price: 5.55,
             category: "Fruit",
             image: "cheese.jpg",
@@ -59,14 +59,7 @@ function Catalog() {
         <div className="catalog page">
             <h1>Our amazing catalog</h1>
 
-            <Product info={data[0]}> </Product>
-            <Product info={data[1]}> </Product>
-            <Product info={data[2]}> </Product>
-            <Product info={data[3]}> </Product>
-            <Product info={data[4]}> </Product>
-            <Product info={data[5]}> </Product>
-            <Product info={data[6]}> </Product>
-
+            {data.map(prod => <Product info={prod} />)}
         </div>
     )
 };

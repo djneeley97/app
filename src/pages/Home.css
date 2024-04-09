@@ -1,0 +1,12 @@
+.home {
+    background-color: #04471C;
+}
+
+.home h1 {
+    color: white;
+}
+
+.home .link {
+    text-decoration: none;
+    color: red;
+}
