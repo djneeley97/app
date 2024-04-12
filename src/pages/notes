@@ -1,23 +1,12 @@
 /*
+front end
 npm start - opens server 
+
+backend
+1- terminal to the server folder
+2- activate the virtual env (venv\Scripts\activate) or (source venv\bin\activate)
+3- run the server (py server.py) or (python3 server.py)
 */
-
-
-/* colors
-#CFBAF0 purple
-#BDB2FF dark purple
-#A9DEF9 blue 
-#A2D2FF dark blue
-#F1C0E8 pink
-#FFC6FF dark pink
-#FBF8CC yellow
-#FDFFB6 dark yellow
-#B9FBC0 green
-#CAFFBF dark green
-*/
-
-
-
 
 /*
 #020202 black
@@ -28,10 +17,11 @@ npm start - opens server
 #50FFB1 teal
 */
 
-
-
 /*
-navbar color not changing 
-
-catalog numbers not changing
+FF9F1C  orange
+FFBF69  light o
+FFFFFF  white
+CBF3F0  light t
+2EC4B6  teal
+197278  dark t
 */

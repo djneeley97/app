@@ -3,13 +3,13 @@
 }
 
 .minus {
-    background-color: rgb(250, 173, 173);
+    background-color: rgb(254, 103, 103);
     color: black;
-    border: black;
+    border: white;
 }
 
 .plus {
-    background-color: rgb(186, 250, 186);
+    background-color: #16DB65;
     color: black;
-    ;
+    border: white;
 }

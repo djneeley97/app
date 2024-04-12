@@ -1,8 +1,10 @@
 .catalog {
-    background-color: #04471C;
+    background-color: #2EC4B6;
 }
 
 .catalog h1 {
     color: white;
     margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
 }

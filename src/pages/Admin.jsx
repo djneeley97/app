@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Admin.css';
+import DataService from '../services/dataService';
 
 function Admin() {
     const [coupon, setCoupon] = useState({
@@ -44,10 +45,15 @@ function Admin() {
 
     function saveProduct() {
         console.log(product);
+        product.price = parseFloat(product.price);
 
         var copy = [...allProducts];
         copy.push(product);
         setAllProducts(copy);
+
+        // send product to the server
+        let service = new DataService();
+        service.saveProduct(product);
     }
 
     return (
@@ -78,7 +84,7 @@ function Admin() {
                         </div>
 
                         <div className='action'>
-                            <button onClick={saveProduct} className='btn btn-outline-success'>
+                            <button onClick={saveProduct} className='btn btn-success'>
                                 Save Product
                             </button>
                         </div>
@@ -106,7 +112,7 @@ function Admin() {
                         </div>
 
                         <div className='action'>
-                            <button onClick={saveCoupon} className='btn btn-outline-success'>
+                            <button onClick={saveCoupon} className='btn btn-success'>
                                 Save Coupon
                             </button>
                         </div>

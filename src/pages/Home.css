@@ -1,12 +1,22 @@
 .home {
-    background-color: #04471C;
+    background-color: #2EC4B6;
 }
 
 .home h1 {
     color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
 }
 
-.home .link {
-    text-decoration: none;
-    color: red;
+.home h3 {
+    color: white;
+}
+
+.home .home-img {
+    margin: 30px;
+}
+
+.home .btn {
+    background-color: #FF9F1C;
+    margin-bottom: 40px;
 }

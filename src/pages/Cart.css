@@ -1,12 +1,18 @@
 .cart {
-    background-color: #BDB2FF;
+    background-color: #2EC4B6;
+    color: white;
+}
+
+.cart h1 {
+    font-weight: bold;
+    text-shadow: 3px 3px black;
 }
 
 .cart .prod-cart {
     display: flex;
     align-items: center;
     border: 1px solid black;
-    background-color: #FBF8CC;
+    background-color: #FF9F1C;
     margin-bottom: 7px;
     margin: 10px;
     border-radius: 7px;
@@ -18,7 +24,7 @@
 }
 
 .cart .btn-minus {
-    background-color: rgb(250, 173, 173);
+    background-color: rgb(254, 103, 103);
 }
 
 .cart .prod-cart div {
@@ -45,7 +51,7 @@
 .cart .total {
     flex: 1;
     font-weight: bold;
-    background-color: #B9FBC0;
+    background-color: #16DB65;
     border-radius: 7px;
     margin: 7px;
 }

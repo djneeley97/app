@@ -1,16 +1,20 @@
 .navbar {
-    background-color: #CAFFBF;
-    color: black;
-    font-weight: bold;
+    background-color: #FFBF69;
 }
 
-
 .navbar h1 {
-    color: #CAFFBF;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+}
+
+.navbar .nav-item {
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
 }
 
 .btn-color2 {
     font-weight: bold;
-    background-color: #CAFFBF;
     align-items: center;
 }

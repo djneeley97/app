@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <div className='home page'>
-            <h1>Welcome to The Organic Store</h1>
-            <div>
-                <img src="./images/organic store.png" alt="" />
+            <h1>The Organic Store</h1>
+            <div className='home-img'>
+                <img src="./images/organicstore.jpg" alt="" />
             </div>
-            <Link className="" to="/Catalog">
+            <Link className="btn" to="/Catalog">
                 <h3>Check out our amazing catalog</h3>
             </Link>
         </div>

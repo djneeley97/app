@@ -1,13 +1,15 @@
 .about {
-    background-color: #04471C;
+    background-color: #2EC4B6;
 }
 
 .about h1 {
     color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
 }
 
 .about .box {
-    background-color: #50FFB1;
+    background-color: #FF9F1C;
     border: 1px solid;
     border-radius: 4px;
     padding: 1rem;
@@ -18,5 +20,5 @@
 }
 
 .btn-primary {
-    background-color: #16DB65;
+    background-color: #CBF3F0;
 }

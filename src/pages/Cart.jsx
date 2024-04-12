@@ -29,7 +29,7 @@ function Cart() {
     return (
         <div className="cart page">
             <h1>Cart</h1>
-            <h6>We have {getNumProducts} ready for you!!</h6>
+            <h6>We have your {getNumProducts} products ready for you!!</h6>
 
 
 

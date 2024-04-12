@@ -21,7 +21,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                    Organic Store
+                    <h1>Organic Store</h1>
                 </a>
                 <button
                     className="navbar-toggler"
@@ -67,7 +67,7 @@ function Navbar() {
                         </li>
                     </ul>
                     <div className="d-flex" role="search">
-                        <Link className="btn btn-color2 btn-outline-success" to="/cart">
+                        <Link className="btn btn-color2 btn-success" to="/cart">
                             {getNumProducts()} Cart
                         </Link>
                     </div>

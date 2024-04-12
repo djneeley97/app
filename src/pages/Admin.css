@@ -1,10 +1,18 @@
 .admin {
-    background-color: #04471C;
+    background-color: #2EC4B6;
 
 }
 
 .admin h1 {
     color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+}
+
+.admin h3 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
 }
 
 .admin .parent {
@@ -20,7 +28,7 @@
 }
 
 .admin .form {
-    background-color: #058C42;
+    background-color: #FF9F1C;
     border: 1px solid #333;
     padding: 10px;
     text-align: left;
